@@ -11,6 +11,7 @@ export default function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  
   const handleSubmit = (e) => {
     e.preventDefault(); // Previene que la página se recargue al enviar el form
     // Aquí irá la lógica para conectar con tu base de datos y validar al usuario
